@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: red;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+header, footer {
+    margin-bottom: 20px;
+}
+
+.slideshow-container {
+    position: relative;
+}
+
+#imgbanner {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    margin: auto;
+}
+
+button {
+    background-color: red;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: darkred;
+}

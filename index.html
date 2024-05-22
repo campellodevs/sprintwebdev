@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Interativo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Bem-vindo a Mahindra</h1>
+        </header>
+        
+        <main>
+            <section id="login">
+                <h2>Login</h2>
+                <form id="loginForm">
+                    <label for="username">Usuário:</label>
+                    <input type="text" id="username" name="username" required>
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" name="password" required>
+                    <button type="submit">Entrar</button>
+                </form>
+            </section>
+
+            <section id="slideShow">
+                <h2>Slide Show de Imagens</h2>
+                <div class="slideshow-container">
+                    <img id="imgbanner" src="img/imagem1.jpg" alt="Imagem de Slide">
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 2024 Projeto Interativo</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
